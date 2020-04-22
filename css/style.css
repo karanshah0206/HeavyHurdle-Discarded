@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #94618E;
+}
+
+header h1 {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #F4DECB;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #F4DECB;
+}
+
+footer p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #94618E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
