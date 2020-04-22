@@ -45,33 +45,65 @@ footer img {
     padding-bottom: 10px;
 }
 
-#pad {
-    display: table;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
+#wrapper {
+    padding-top: 50px;
+}
+
+.left {
+    height: 150px !important;
+    float: left;
+    width: 50%;
     text-align: center;
-    height: 100px;
 }
 
-.buttons  {
-    display: table-cell;
-    vertical-align: middle;
+.right {
+    height: 150px !important;
+    float: right;
+    width: 50%;
+    text-align: center;
 }
 
-.buttons a {
-    color: #49274A;
+#joinclass {
     text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 10px !important;
     border: 3px solid #49274A;
     border-radius: 5px;
-    font-size: 20px;
+    color: #49274A;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: transparent;
     transition: background 0.5s ease;
 }
 
-.buttons a:hover {
+h2 {
+    font-weight: normal;
+}
+
+#joinclass:hover {
     background-color: rgba(73, 39, 74, 0.1);
     transition: background 0.5s ease;
+}
+
+#newclass {
+    text-decoration: none;
+    border: 3px solid #49274A;
+    border-radius: 5px;
+    color: #49274A;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: transparent;
+    transition: background 0.5s ease;
+}
+
+#newclass:hover {
+    background-color: rgba(73, 39, 74, 0.1);
+    transition: background 0.5s ease;
+}
+
+#joinclass-go {
+    padding: 5px; margin: 0;
+    border-radius: 5px;
+    background-color: #49274A;
+    color: white;
 }

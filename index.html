@@ -12,15 +12,22 @@
     <header>
         <h1><b>HEAVY</b>HURDLE</h1>
     </header>
-    <div id="pad">
-        <div class="buttons">
-            <a href="#" style="margin-right: 50px;">CREATE CLASS</a>
-            <a href="#">JOIN A CLASS</a>
+    <div id="wrapper">
+        <div class="left">
+            <h2><b>Join</b> Class</h2>
+            <p>Ask your teacher for the class code.</p><br>
+            <input type="text" id="joinclass" placeholder="Class Code"> <font id="joinclass-go" onclick="goer()">></font>
+        </div>
+        <div class="right">
+            <h2><b>Create</b> Class</h2>
+            <p>If you're a teacher, create a virtual class here.</p><br>
+            <input type="button" value="New Class" id="newclass">
         </div>
     </div>
     <footer>
         <img src="img/ico.png">
         <p>COPYRIGHT &copy; 2020 Karan Shah.</p>
     </footer>
+    <script defer src="js/app.js"></script>
 </body>
 </html>
