@@ -44,3 +44,34 @@ footer img {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+#pad {
+    display: table;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+
+.buttons  {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.buttons a {
+    color: #49274A;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px !important;
+    border: 3px solid #49274A;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background 0.5s ease;
+}
+
+.buttons a:hover {
+    background-color: rgba(73, 39, 74, 0.1);
+    transition: background 0.5s ease;
+}
