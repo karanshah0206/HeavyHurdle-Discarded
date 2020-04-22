@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
+    overflow: hidden;
 }
 
 header {
@@ -31,6 +32,15 @@ footer {
 footer p {
     font-family: 'Roboto Condensed', sans-serif;
     color: #94618E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+footer img {
+    height: 20px;
+    position: absolute;
+    right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
