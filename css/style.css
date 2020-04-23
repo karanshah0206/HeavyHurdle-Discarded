@@ -71,13 +71,16 @@ footer img {
 
 .left p {
     color: #94618E;
+    font-size: 20px;
 }
 
 .right p {
     color: #94618E;
+    font-size: 20px;
 }
 
 h2 {
+    font-size: 30px;
     font-weight: normal;
     color: #49274A;
 }
