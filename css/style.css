@@ -1,9 +1,16 @@
+/* General */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
     overflow: hidden;
 }
+
+body {
+    background-color: #F8EEE7;
+}
+
+/* Header */
 
 header {
     width: 100%;
@@ -20,6 +27,8 @@ header h1 {
     font-family: 'Roboto Condensed', sans-serif;
     color: #F4DECB;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -45,6 +54,8 @@ footer img {
     padding-bottom: 10px;
 }
 
+/* Mains */
+
 #wrapper {
     padding-top: 50px;
 }
@@ -63,6 +74,21 @@ footer img {
     text-align: center;
 }
 
+.left p {
+    color: #94618E;
+}
+
+.right p {
+    color: #94618E;
+}
+
+h2 {
+    font-weight: normal;
+    color: #49274A;
+}
+
+/* Join Class */
+
 #joinclass {
     text-decoration: none;
     border: 3px solid #49274A;
@@ -75,14 +101,20 @@ footer img {
     transition: background 0.5s ease;
 }
 
-h2 {
-    font-weight: normal;
-}
-
 #joinclass:hover {
     background-color: rgba(73, 39, 74, 0.1);
     transition: background 0.5s ease;
 }
+
+#joinclass-go {
+    padding: 5px; margin: 0;
+    border-radius: 5px;
+    background-color: #49274A;
+    color: white;
+    cursor: pointer;
+}
+
+/* New Class */
 
 #newclass {
     text-decoration: none;
@@ -99,11 +131,4 @@ h2 {
 #newclass:hover {
     background-color: rgba(73, 39, 74, 0.1);
     transition: background 0.5s ease;
-}
-
-#joinclass-go {
-    padding: 5px; margin: 0;
-    border-radius: 5px;
-    background-color: #49274A;
-    color: white;
 }
