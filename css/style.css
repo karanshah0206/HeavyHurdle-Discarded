@@ -1,13 +1,10 @@
 /* General */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
     overflow: hidden;
-}
-
-body {
-    background-color: #F8EEE7;
 }
 
 /* Header */
@@ -56,19 +53,17 @@ footer img {
 
 /* Mains */
 
-#wrapper {
-    padding-top: 50px;
-}
-
 .left {
-    height: 150px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
     float: left;
     width: 50%;
     text-align: center;
 }
 
 .right {
-    height: 150px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
     float: right;
     width: 50%;
     text-align: center;
