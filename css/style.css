@@ -34,8 +34,6 @@ header h1 {
 
 footer {
     width: 100%;
-    position: absolute;
-    bottom: 0;
     text-align: center;
     background-color: #F4DECB;
 }
@@ -43,17 +41,15 @@ footer {
 footer p {
     font-family: 'Roboto Condensed', sans-serif;
     color: #94618E;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
+    padding: 10px;
 }
 
 footer img {
+    cursor: pointer;
     height: 20px;
     position: absolute;
-    right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    right: 0;
+    padding: 10px;
 }
 
 /* Mains */
